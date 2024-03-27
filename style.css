@@ -5,12 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 
 body {
-    background-color: rgb(255, 127, 80);
+    background: linear-gradient(to bottom,  rgba(135,224,253,1) 0%,rgba(83,203,241,1) 50%,rgba(5,171,224,1) 100%);
     font-family: 'Manrope', sans-serif;
     display: flex;
     height: 100vh;
@@ -23,10 +22,10 @@ body {
 }
 
 .container {
-    background-color: rgb(0,255,255);
+    background-color: #8FFF49;
     text-align: center;
     padding: 50px;
-    box-shadow: 0 0 40px rgb(131, 255, 255);
+    box-shadow: 0 0 40px #b4ff86;
     border-radius: 20px;
 }
 
@@ -42,6 +41,6 @@ body {
 .exercise-list a:hover{
     color: #fff;
     padding: 10px 20px;
-    background-color: blue;    
+    background-color: #815BFF;    
     transition: 1s;
 }
